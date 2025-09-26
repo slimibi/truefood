@@ -1,12 +1,26 @@
-# Foodie Finder 🍽️
+# Foodie Finder
 
 A modern, full-stack restaurant discovery application built with React, TypeScript, Node.js, Express, and MongoDB. Discover, filter, and save your favorite restaurants with a beautiful, responsive UI and powerful search capabilities.
 
 ![Foodie Finder](https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=300&fit=crop&crop=center)
 
-## ✨ Features
 
-### 🏠 Core Features
+##Here some screenshots : 
+<img width="1919" height="1196" alt="Screenshot 2025-09-26 010455" src="https://github.com/user-attachments/assets/60b38d25-0401-4d5a-99f4-7b5bf3fe68cc" />
+
+<img width="1919" height="1199" alt="Screenshot 2025-09-26 010503" src="https://github.com/user-attachments/assets/654a9eea-4992-45b6-ae08-e800e50452a6" />
+
+<img width="1919" height="1199" alt="Screenshot 2025-09-26 010511" src="https://github.com/user-attachments/assets/8afc31bd-083f-43ca-b591-b0b6a1f50664" />
+
+<img width="1919" height="1199" alt="Screenshot 2025-09-26 010516" src="https://github.com/user-attachments/assets/f5fb02d6-dfef-48fd-bf47-659df6ed223f" />
+
+<img width="1919" height="1199" alt="Screenshot 2025-09-26 010521" src="https://github.com/user-attachments/assets/185fdfef-b922-4a3a-9d8f-4c2c451d47e9" />
+
+<img width="1919" height="1199" alt="Screenshot 2025-09-26 010528" src="https://github.com/user-attachments/assets/7a90268e-5174-4752-90c1-68c7bd93b9d0" />
+
+## Features
+
+### Core Features
 - **Restaurant Discovery**: Browse a curated collection of restaurants with detailed information
 - **Smart Search & Filtering**: Search by name, cuisine, location, price range, features, and ratings
 - **Detailed Restaurant Pages**: View comprehensive restaurant information, photos, hours, and contact details
@@ -14,7 +28,7 @@ A modern, full-stack restaurant discovery application built with React, TypeScri
 - **Location-Based Search**: Find nearby restaurants using geolocation
 - **Responsive Design**: Beautiful, modern UI that works on all devices
 
-### 🎨 UI/UX Features
+### UI/UX Features
 - **Dark/Light Mode**: Toggle between themes with system preference detection
 - **Modern Design**: Clean, professional interface built with Tailwind CSS
 - **Smooth Animations**: Framer Motion powered animations and transitions
@@ -22,12 +36,12 @@ A modern, full-stack restaurant discovery application built with React, TypeScri
 - **Toast Notifications**: User-friendly feedback for all actions
 - **Mobile-First**: Optimized for mobile devices with touch-friendly interactions
 
-### 🔐 Authentication
+### Authentication
 - **User Registration & Login**: Secure JWT-based authentication
 - **Profile Management**: Update user information and preferences
 - **Protected Routes**: Secure access to user-specific features
 
-### 🛠 Technical Features
+### Technical Features
 - **TypeScript**: Full type safety across frontend and backend
 - **Modern React**: Hooks, Context, and functional components
 - **State Management**: Zustand for lightweight, scalable state management
@@ -35,7 +49,7 @@ A modern, full-stack restaurant discovery application built with React, TypeScri
 - **Form Handling**: React Hook Form with validation
 - **Error Boundaries**: Graceful error handling throughout the app
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -43,7 +57,7 @@ A modern, full-stack restaurant discovery application built with React, TypeScri
 - **MongoDB** (v5 or higher)
 - **npm** or **yarn** package manager
 
-### 📦 Installation
+### Installation
 
 1. **Clone the repository**
    ```bash
@@ -125,7 +139,7 @@ A modern, full-stack restaurant discovery application built with React, TypeScri
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000/api/health
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 foodie-finder/
@@ -164,7 +178,7 @@ foodie-finder/
 └── README.md             # This file
 ```
 
-## 🔧 Available Scripts
+## Available Scripts
 
 ### Backend Scripts
 ```bash
@@ -187,7 +201,7 @@ npm run lint:fix    # Fix ESLint errors
 npm run type-check  # Run TypeScript type checking
 ```
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/register` - Register new user
@@ -207,7 +221,7 @@ npm run type-check  # Run TypeScript type checking
 - `POST /api/users/favorites/:id` - Add to favorites
 - `DELETE /api/users/favorites/:id` - Remove from favorites
 
-## 🎯 Key Technologies
+## Key Technologies
 
 ### Frontend
 - **React 18** - Modern React with hooks and concurrent features
@@ -235,7 +249,7 @@ npm run type-check  # Run TypeScript type checking
 - **Express Rate Limit** - Rate limiting
 - **Express Validator** - Input validation
 
-## 🔐 Security Features
+## Security Features
 
 - **JWT Authentication** - Secure token-based authentication
 - **Password Hashing** - bcrypt for password security
@@ -245,21 +259,21 @@ npm run type-check  # Run TypeScript type checking
 - **Input Validation** - Comprehensive input sanitization
 - **Environment Variables** - Sensitive data protection
 
-## 📱 Responsive Design
+## Responsive Design
 
 The application is fully responsive and optimized for:
 - **Desktop** (1200px+)
 - **Tablet** (768px - 1199px)
 - **Mobile** (320px - 767px)
 
-## 🌙 Dark Mode
+## Dark Mode
 
 - **System Preference Detection** - Automatically detects user's system theme
 - **Manual Toggle** - Users can override with manual selection
 - **Persistent Storage** - Theme preference saved locally
 - **Smooth Transitions** - All theme changes are animated
 
-## 🚀 Deployment
+## Deployment
 
 ### Backend Deployment (Railway/Heroku/DigitalOcean)
 1. Set production environment variables
@@ -276,19 +290,9 @@ The application is fully responsive and optimized for:
 2. Update `MONGODB_URI` in backend environment variables
 3. Whitelist your application's IP addresses
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Unsplash** - Beautiful restaurant photos
 - **Lucide** - Modern icon set
@@ -296,14 +300,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **MongoDB** - Flexible document database
 
 ---
-
-## 📞 Support
-
-If you have any questions or need help with setup, please:
-- Check the [documentation](docs/)
-- Open an [issue](https://github.com/yourusername/foodie-finder/issues)
-- Contact: [your-email@example.com](mailto:your-email@example.com)
-
 ---
 
 **Happy coding! 🍽️✨**
